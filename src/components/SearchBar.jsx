@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="flex gap-5 mt-[50px] items-center justify-center ">
+    <div className="flex gap-5 mt-[10px] items-center justify-center ">
       <input
         className="border border-gray-400 outline-none py-1 w-[300px]"
         type="text"
