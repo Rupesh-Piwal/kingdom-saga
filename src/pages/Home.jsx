@@ -1,11 +1,11 @@
 import React from "react";
-import SearchBar from "../components/SearchBar";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div className="m-[5px] h-full">
-      <SearchBar />
+      <Header />
       <Layout />
     </div>
   );

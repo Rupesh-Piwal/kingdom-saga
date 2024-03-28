@@ -3,9 +3,9 @@ import generals from "../Data";
 import { useState } from "react";
 
 const Layout = () => {
-  const [page, setPage] = useState(6);
+  const [page, setPage] = useState(22);
   return (
-    <div className="flex  bg-red-400 flex-wrap justify-center border-2 mt-[10px]">
+    <div className="flex  bg-red-400 flex-wrap justify-center border-2 mt-[70px]">
       {generals.slice(0, page).map((item) => (
         <Card
           key={item.id}
